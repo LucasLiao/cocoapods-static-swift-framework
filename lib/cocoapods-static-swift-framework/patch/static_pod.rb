@@ -4,7 +4,7 @@ if Gem::Version.new(Pod::VERSION) < Gem::Version.new('1.7')
     module Pod
         class PodTarget
             def static_framework?
-                return true
+                return false
             end
         end
     end
